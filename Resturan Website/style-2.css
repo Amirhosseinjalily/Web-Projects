@@ -1,0 +1,244 @@
+.home{
+    width: 5rem;
+    height: 5rem;
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem;
+    /* background: url(./assets/img/logo/home.png) cover; */
+    cursor: pointer;
+}
+.home img{
+    width: 100%;
+    height: 100%;
+}
+
+.home:hover{
+    transform: scale(1.4);
+}
+
+@media screen and (max-width:1920px) {
+    html{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:1024px) {
+    html{
+        font-size: 6px;
+    }
+}
+@media screen and (max-width:769px) {
+    html{
+        font-size: 5px;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .card,
+    .card-shop-basket{
+        width: 5rem;
+        height: 5rem;
+    }
+}
+@media screen and (max-width:481px) {
+    html{
+        font-size: 2.8px;
+    }
+    .home{
+        width: 18rem;
+        height: 18rem;
+    }
+	.title{
+        font-size: 3rem;
+    }
+    .navbar{
+        height: 50vh;
+        width: 12%;
+    }
+    .card,
+    .card-shop-basket{
+        width: 13rem;
+        height: 13rem;
+    }
+    .menu-item{
+        width: 70%;
+    }
+    .menu-item p{
+        font-size: 3.8rem;
+    }
+    .menu-item > img{
+        width: 40rem;
+        height: 40rem;
+    }
+    .btn-add-shop-card{
+        scale: 3;
+    }
+    .btn-remove-shop-card img{
+        scale: 3;
+    }
+    .note.active{
+        display: flex;
+        animation: note-width-grow 1s;
+        width: 100%;
+    }
+    @keyframes note-width-grow {
+        from{width: 0%;}
+        to{width: 100%;}
+    }
+    .note-title{
+        font-size: 4.5rem;
+    }
+    .btn-close{
+        width: 18.5rem;
+        height: 18.5rem;
+    }
+    .trash-all{
+        width: 17rem;
+    }
+    .product-img{
+        width: 25%;
+        height: 75%;
+    }
+    .product-title{
+        top: 1rem;
+        right: 30%;
+        font-size: 4.5rem;
+    }
+    .product-control{
+        left: 1rem;
+        top: 13.6rem;
+        width: 35%;
+        height: 32%;
+    }
+    .trash-this{
+        left: 1rem;
+        width: 10.5rem;
+    }
+    .product-add{
+        right: 1rem;
+        width: 10rem;
+    }
+    .product-number{
+        font-size: 6rem;
+    }
+    .product-cost{
+        bottom: .3rem;
+        left: 2rem;
+        font-size: 10rem;
+    }
+    .product-bottom-title{
+        bottom: 4rem;
+        font-size: 5.5rem;
+    }
+    .product-sum-title{
+        top: 3rem;
+        right: 5rem;
+        font-size: 8rem;
+    }
+    .product-sum{
+        top: 3rem;
+        left: 5rem;
+        font-size: 8rem;
+    }
+}
+@media screen and (max-width:320px) {
+    html{
+        font-size: 2px;
+    }
+    .home{
+        width: 18rem;
+        height: 18rem;
+    }
+    .title{
+        font-size: 5rem;
+    }
+    .navbar{
+        height: 40vh;
+        width: 12%;
+    }
+    .card,
+    .card-shop-basket{
+        width: 13rem;
+        height: 13rem;
+    }
+    .menu-item{
+        width: 70%;
+        height: 15vh;
+    }
+    .menu-item p{
+        font-size: 3.8rem;
+    }
+    .menu-item > img{
+        width: 40rem;
+        height: 40rem;
+    }
+    .btn-add-shop-card{
+        scale: 2.5;
+    }
+    .btn-remove-shop-card img{
+        scale: 2;
+    }
+    .note.active{
+        display: flex;
+        animation: note-width-grow 1s;
+        width: 100%;
+    }
+    @keyframes note-width-grow {
+        from{width: 0%;}
+        to{width: 100%;}
+    }
+    .note-title{
+        font-size: 4.5rem;
+    }
+    .btn-close{
+        width: 18.5rem;
+        height: 18.5rem;
+    }
+    .trash-all{
+        width: 17rem;
+    }
+    .product-img{
+        width: 25%;
+        height: 75%;
+    }
+    .product-title{
+        top: 1rem;
+        right: 30%;
+        font-size: 4.5rem;
+    }
+    .product-control{
+        left: 1rem;
+        top: 13.6rem;
+        width: 35%;
+        height: 32%;
+    }
+    .trash-this{
+        left: 1rem;
+        width: 10.5rem;
+    }
+    .product-add{
+        right: 1rem;
+        width: 10rem;
+    }
+    .product-number{
+        font-size: 6rem;
+    }
+    .product-cost{
+        bottom: .3rem;
+        left: 2rem;
+        font-size: 10rem;
+    }
+    .product-bottom-title{
+        bottom: 4rem;
+        font-size: 5.5rem;
+    }
+    .product-sum-title{
+        top: 3rem;
+        right: 5rem;
+        font-size: 8rem;
+    }
+    .product-sum{
+        top: 3rem;
+        left: 5rem;
+        font-size: 8rem;
+    }
+}
